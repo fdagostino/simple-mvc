@@ -1,0 +1,25 @@
+{
+  "name": "simple-mvc/v1",
+  "type": "framework",
+  "description": "framework for PHP 7+",
+  "homepage": "https://playwebs.net",
+  "license": "GNU",
+  "authors": [
+    {
+      "name": "Gerónimo Ortiz",
+      "email": "geronimo@playwebs.net",
+      "homepage": "http://playwebs.net",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "ezsql/ezsql": "2.1.7",
+    "bramus/router": "~1.4"
+  },
+  "autoload": {
+    "classmap": [
+      "core",
+      "app/helpers"
+    ]
+  }
+}
