@@ -7,7 +7,7 @@ define('DEBUG', true);
 define('URL','https://example.com/');
 define('PATH', $_SERVER['DOCUMENT_ROOT'].'app/');
 define('HASH','91@a9-d3[0eb_7b2>fa5!cff.a$fd64%07f&018?3+b8');
-
+	
 # Database
 # ================================================================= #
 define('DB_EXT','mysqli');
@@ -17,5 +17,7 @@ define('DB_USER','db_user');
 define('DB_PASS','********');
 define('DB_PORT','3306');
 
-
-
+# ReCaptcha
+# ================================================================= #
+define('RECHAPTCHA_SITE_KEY', '');
+define('RECHAPTCHA_SECRET_KEY', '');

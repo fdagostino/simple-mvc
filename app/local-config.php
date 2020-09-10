@@ -16,3 +16,8 @@ define('DB_NAME','db_name');
 define('DB_USER','db_user');
 define('DB_PASS','********');
 define('DB_PORT','3306');
+
+# ReCaptcha
+# ================================================================= #
+define('RECHAPTCHA_SITE_KEY', '');
+define('RECHAPTCHA_SECRET_KEY', '');

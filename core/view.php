@@ -22,7 +22,7 @@ class View {
 		unset($data);
 
 		if (file_exists( "app/views/$path.php" )) 
-			require_once "app/views/$path.php";
+			require "app/views/$path.php";
 		elseif(DEBUG) 
 			die ('Error al abrir la vista '.$path);
 
